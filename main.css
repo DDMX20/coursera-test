@@ -1,0 +1,112 @@
+
+* {
+  box-sizing: border-box;
+  margin:0px;
+}
+h2{
+  text-align: center;
+  font-size: 50px;
+  font-family:serif;
+  margin-bottom: 50px
+}
+
+
+#p1
+{
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: yellow;
+  float:top right;
+  position:relative;
+  margin:0px 0px 0px 70%;
+  text-align: center;
+  font-weight: bolder;
+
+}
+#p2
+{
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: pink;
+  float:top right;
+  position:relative;
+  margin:0px 0px 0px 70%;
+  text-align: center;
+  font-weight: bolder;
+
+}
+#p3
+{
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color:crimson;
+  float:top right;
+  position:relative;
+  margin:0px 0px 0px 70%;
+  text-align: center;
+  font-weight: bolder;
+
+
+}
+p{padding: 10px;}
+
+/* Create four equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 97%;
+margin: 10px;
+  border: 1px solid black;
+
+}
+.column2 {
+  float: left;
+  width: 97%;
+  margin: 10px;
+
+  border: 1px solid black;
+
+
+}
+.column3 {
+  float: left;
+  width: 97%;
+  margin: 10px;
+
+  border: 1px solid black;
+
+}
+
+
+ .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin: 0px;
+
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media (min-width:767px) {
+  .column1 {
+    width: 47%;
+  }
+  .column2 {
+    width: 47%;
+  }
+  .column3 {
+    width: 96.25%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media (min-width: 992px) {
+  .column1 {margin-left: 50px;
+    width: 30%;
+  }
+  .column2 {
+    width: 30%;
+  }
+  .column3 {
+    width: 30%;
+  }
+}
